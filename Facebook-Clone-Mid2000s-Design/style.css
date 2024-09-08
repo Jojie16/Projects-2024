@@ -1,0 +1,314 @@
+
+
+:root{
+    --offWhite: #ffffff94;
+    --mainWhite: #f7f7f7;
+    --slightBlack: #353130;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDF0F5;
+}
+
+nav{
+    background-color: #3D5B9B;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .logo{
+    font-family: 'Facebook Sans', sans-serif;
+    font-size: 1.6rem;
+    transform: scaleY(1.1);
+}
+
+.nav-container{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 550px;
+    color: var(--mainWhite);
+}
+
+.logForm{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    gap: 20px;
+    /* border: 1px solid #000000; */
+}
+
+.logf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* margin-right: 20px; */
+    /* border: 1px solid #fff; */
+}
+
+.cb-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    color: var(--offWhite);
+}
+
+
+.logBtn{
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #5B749B;
+    color: var(--mainWhite);
+    border: none;
+}
+
+.logBtn:hover{
+    cursor: pointer;
+    background-color: #5b749b94;
+}
+
+.forgotPass {
+    margin-top: 7px;
+    font-size: 12px;
+    color: var(--offWhite);
+    text-decoration: none;
+}
+
+.forgotPass:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.logf input[type="text"]{
+    padding: 2px;
+}
+
+.logf input[type="password"]{
+    padding: 2px;
+}
+
+input{
+    border: 1px solid #000;
+}
+
+section{
+    background-color: #EDF0F5;
+}
+
+.main-container {
+    height: 90vh;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: var(--slightBlack);
+    gap: 200px;
+    /* margin: 0 100px; */
+}
+
+/* R 485 - L 345px */
+
+/* LEFT CONTAINER */
+
+.left-container{
+    width: 495px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    overflow: visible;
+    /* border: 2px solid green; */
+
+}
+
+.leftHeader{
+    margin-top: 50px;
+    /* margin-left: 30px; */
+    display: flex;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    transform: scaleY(1.1);
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    color: var(--slightBlack);
+    font-weight: bolder;
+    white-space: nowrap;
+    /* margin-left: 80px; */
+}
+
+.icons span{
+    margin-left: 10px;
+    color: #757575;
+    font-weight: lighter;
+}
+
+.icons img{
+    width: 70px;
+    margin-left: -20px;
+}
+
+
+
+/* RIGHT CONTAINER */
+
+
+.right-container{
+    width: 485px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+
+.right-container a{
+    text-decoration: none;
+}
+
+.right-header{
+    font-size: 1.5rem;
+}
+
+.gFont{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logForm-Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.logForm-Container input[type="text"]{
+    padding: 16px 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #ffffffcc;
+    font-size: 1rem;
+}
+
+.logForm-Container input[type="password"]{
+    padding: 16px 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+input::placeholder{
+    color: #949494;
+}
+
+
+.fname-lname-container{
+    display: flex;
+}
+
+.fname-lname-container input[type="text"]{
+    width: 100%;
+}
+
+.mbl-pass-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.inpt{
+    margin: 6px;
+}
+
+.bday-container{
+    display: flex;
+    align-items: center;
+}
+
+.bdy{
+    margin-bottom: -10px;
+    font-weight: bold;
+}
+
+select{
+    padding: 5px 30px 5px 0px;
+}
+
+.right-bday-info{
+    margin-left: 10px;
+    font-size: 12px;
+    color: #3D5B9B;
+}
+
+.gender-container{
+    display: flex;
+}
+
+.gender{
+    display: flex;
+    margin: 0 10px;
+}
+
+.gender input[type="radio"]{
+    margin-right: 10px;
+}
+
+.gender label{
+    font-size: 18px;
+}
+
+.termsInfo{
+    font-size: 12px;
+    color: #757575;
+}
+
+.termsInfo a{
+    color: #3D5B9B;
+}
+
+.buttonCreateAcc button{
+    background-color: #5E9D4E;
+    color: #f7f7f7;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+.footer-info{
+    display: flex;
+    gap: 6px;
+}
+
+.footer-info h4{
+    color: #3D5B9B;
+}
+
+.footer-info p{
+    color: #757575;
+    font-weight: 600;
+}
